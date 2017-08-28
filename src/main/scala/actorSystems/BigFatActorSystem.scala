@@ -27,6 +27,8 @@ object BigFatActorSystem extends App {
 
   val secondActor = system.actorOf(Props(new SecondActor(helloActor)), name = "secondactor")
 
+ // N.B. Type of helloActor & secondActor is actorRef
+ 
   // an actor whose constructor takes one argument, the actor HelloActor( myName: String) needs to be parameterised
   //val helloActor = system.actorOf(Props(new HelloActor("Fred")), name = "helloactor")
 
