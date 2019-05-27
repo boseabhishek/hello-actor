@@ -1,5 +1,5 @@
 # hello-actor
 Basic project on how actor works
 
-## Akka basics
-![alt text](https://raw.githubusercontent.com/username/projectname/branch/path/to/img.png)
+#### Akka in one image
+![alt text](https://github.com/boseabhishek/hello-actor/blob/master/whatisAkka.jpg)
